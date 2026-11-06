@@ -223,3 +223,6 @@ def extract_listings(html):
             continue
 
         item_id 
+        
+if __name__ == "__main__":
+    main()
