@@ -1,3 +1,5 @@
+print("=== VINTED PS5 BOT STARTING ===", flush=True)
+
 import json
 import logging
 import os
