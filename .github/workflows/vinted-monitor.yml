@@ -33,7 +33,7 @@ jobs:
           VINTED_SEARCH_URL: ${{ secrets.VINTED_SEARCH_URL }}
           MIN_PRICE: "200"
           MAX_PRICE: "300"
-        run: timeout 60s python vinted_ps5_alert.py || true
+        run: python -u vinted_ps5_alert.py
 
       - name: Save seen listings
         run: |
